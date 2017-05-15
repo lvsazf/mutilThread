@@ -1,16 +1,10 @@
 package com.lzs.thread;
 
 public class MyRunnable implements Runnable {
-	private String name;
-
 	private Integer num = 5;
 
 	public MyRunnable() {
 		super();
-	}
-
-	public MyRunnable(String name) {
-		this.name = name;
 	}
 
 	@Override
