@@ -14,7 +14,8 @@ public class ThreadB implements Runnable {
 	
 	@Override
 	public void run() {
-		myObject.methodA();
+//		myObject.methodA();
+		myObject.methodB();
 	}
 
 }
