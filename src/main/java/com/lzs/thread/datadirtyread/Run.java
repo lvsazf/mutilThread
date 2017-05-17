@@ -2,6 +2,7 @@ package com.lzs.thread.datadirtyread;
 
 public class Run {
 	
+	public static int count = 0;
 	
 	/**
 	 * <p>MethodName: main</p>
@@ -18,9 +19,7 @@ public class Run {
 			Thread.sleep(1000);
 			publicVar.getValue();
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
-	
 }
