@@ -16,7 +16,6 @@ public class CallableTest {
 			Future<String> future = executorService.submit(new TaskWithResult(i));
 			resultList.add(future);
 		}
-
 		for (Future<String> future : resultList) {
 			try {
 				while (!future.isDone()) 
