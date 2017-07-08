@@ -8,7 +8,6 @@
 		<slf4.version>1.8.0-alpha2</slf4.version>
 	</properties>
 	<dependencies>
-
 		<dependency>
 			<groupId>commons-lang</groupId>
 			<artifactId>commons-lang</artifactId>
@@ -25,14 +24,11 @@
 			<artifactId>slf4j-api</artifactId>
 			<version>${slf4.version}</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-log4j12</artifactId>
 			<version>${slf4.version}</version>
-<!-- 			<scope>test</scope> -->
 		</dependency>
-
 	</dependencies>
 	<build>
 		<plugins>
